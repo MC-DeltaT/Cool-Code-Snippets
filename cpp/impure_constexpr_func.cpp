@@ -1,6 +1,6 @@
-// Usage of "stateless metaprogramming" via friend function instantiation to create a constexpr function that changes
+// Usage of "stateful metaprogramming" via friend function instantiation to create a constexpr function that changes
 // return values between invocations without changing its arguments.
-// Unlike stateless metaprogramming from previous C++ versions, I think this C++20 code is completely well-formed,
+// Unlike stateful metaprogramming from previous C++ versions, I think this C++20 code is completely well-formed,
 // safe, and works on all major compilers.
 
 
